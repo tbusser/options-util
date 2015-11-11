@@ -1,4 +1,4 @@
-A communication utility between the page and JavaScript.
+An options communication utility API. Allows for sharing options between different components, but also between JavaScript and the DOM.
 
 **API**
 
