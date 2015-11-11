@@ -1,0 +1,10 @@
+{
+    "name": "window-events-util",
+    "description": "Handles native events to make them perform better.",
+    "version": "0.0.1",
+    "main": "window-events-util.js",
+    "ignore": [
+        "README.md",
+        "bower.json"
+    ]
+}
