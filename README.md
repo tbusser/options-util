@@ -33,7 +33,9 @@ options.remove('propertyName');
 *.isset()*
 Check if property is set:
 
-```options.isset('propertyName');```
+```
+options.isset('propertyName');
+```
 
 
 *script tag*
@@ -41,8 +43,10 @@ Check if property is set:
 Use a script tag with type *json/options* to store values inside the options util using JSON<br>
 
 
-```<script type="json/options">
+```
+<script type="json/options">
 {
     "propertyName": "property value"
 }
-</script>```
+</script>
+```
