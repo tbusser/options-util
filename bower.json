@@ -1,8 +1,8 @@
 {
-    "name": "window-events-util",
-    "description": "Handles native events to make them perform better.",
-    "version": "0.0.1",
-    "main": "window-events-util.js",
+    "name": "options-util",
+    "description": "A communication utility between the page and JavaScript.",
+    "version": "0.0.2",
+    "main": "options-util.js",
     "ignore": [
         "README.md",
         "bower.json"
