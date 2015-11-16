@@ -1,4 +1,4 @@
-A communication utility between the page and JavaScript.
+An options communication utility API. Allows for sharing options between different components, but also between JavaScript and the DOM.
 
 **API**
 
@@ -33,7 +33,9 @@ options.remove('propertyName');
 *.isset()*
 Check if property is set:
 
-```options.isset('propertyName');```
+```
+options.isset('propertyName');
+```
 
 
 *script tag*
@@ -41,8 +43,10 @@ Check if property is set:
 Use a script tag with type *json/options* to store values inside the options util using JSON<br>
 
 
-```<script type="json/options">
+```
+<script type="json/options">
 {
     "propertyName": "property value"
 }
-</script>```
+</script>
+```
