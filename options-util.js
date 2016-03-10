@@ -1,3 +1,4 @@
+/* global jQuery */
 (function (factory) {
     if(typeof define === 'function' && define.amd) {
         // Register as an AMD module.
@@ -26,7 +27,7 @@
      *
      * @param {String} property The property to check on
      */
-    function isset(property) {
+    function isSet(property) {
         // If the property does not exist yet
         // And the property is not a string
         if(!property || typeof property !== 'string') {
@@ -50,7 +51,7 @@
      */
     function testProperty(property) {
         // If the property is set
-        if(!isset(property)) {
+        if(!isSet(property)) {
             // Return a warning because we cannot find a reference
             console.warn('Cannot find reference `' + property
                 + '` in app.option, does it exist?');
@@ -174,7 +175,7 @@
      * Expose public API
      */
     return {
-        isset: isset,
+        isSet: isSet,
         get: get,
         set: set,
         remove: remove
