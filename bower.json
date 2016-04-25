@@ -1,10 +1,14 @@
 {
     "name": "options-util",
     "description": "A communication utility between the page and JavaScript.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "options-util.js",
     "ignore": [
         "README.md",
-        "bower.json"
+        "bower.json",
+        ".editorconfig",
+        ".eslintrc",
+        "HISTORY.md",
+        "LICENSE.md"
     ]
 }
